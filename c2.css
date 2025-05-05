@@ -1,0 +1,268 @@
+body {
+ 
+    background-color:rgb(237, 248, 248);
+}
+.top{
+    justify-content: space-evenly;
+    background-color: rgba(217, 221, 246, 0.718);
+    height:75px ;
+    margin-top: 0px;
+}
+.image{
+    border-radius: 30px;
+    display: flex;
+}
+
+header{
+    text-align:left;
+    padding:1em 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    display:flex;
+    justify-content:center;
+
+}
+abc{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    display:flex;
+    justify-content:center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    background-color: rgba(217, 221, 246, 0.063);
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(67, 0, 67, 0.774);
+}
+
+nav ul li a:hover {
+    text-decoration:solid;
+}
+.profile{
+    margin-left: 550px;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+.sidebar {
+    width:210px;
+    background-color: rgba(217, 221, 246, 0.626); 
+    padding: 20px;
+    height: 520px;
+ box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  
+}
+.h2{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgba(67, 0, 67, 0.812);
+font-weight: 100;
+}
+.main-content {
+    margin-left: 25px;
+    width: 70%;
+    background-color: rgba(217, 221, 246, 0.718);
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.priority-section, .completed-section {
+    margin-bottom: 20px;
+}
+
+.priority-section h2, .completed-section h2, .main-content h2 {
+    margin-top: 0;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color:rgba(128, 0, 128, 0.679);
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size:medium;
+}
+
+button:hover {
+    background-color: rgba(128, 0, 128, 0.566);
+}
+
+.listed ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.listed li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: medium;
+}
+
+.listed li .left {
+    display: flex;
+    align-items: center;
+}
+
+.listed li.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.priority-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ff6347; 
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.priority-btn:hover {
+    background-color: transparent;
+}
+
+.priority-btn.active {
+    color: #e55347; 
+}
+.calendar {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 500px;
+    color: #333;
+    padding: 20px;
+    margin-left: 30px;
+    height:300px
+  }
+  
+  .header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .btn1 {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #333;
+  }
+  
+  #month-year {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .weekdays, .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .weekdays div, .days div {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .days div {
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .days div:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .days .today {
+    background-color: #d8bfff;
+    color: #333;
+  }
+  
+  .days .fade {
+    color: #888;
+  }
+  @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-content {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sidebar {
+        padding: 10px;
+    }
+
+    .calendar {
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+}

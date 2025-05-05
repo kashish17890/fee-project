@@ -1,0 +1,128 @@
+body {
+    background-image:url('main1.jpg');
+    background-color:ghostwhite;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.right-section {
+
+    text-align: center;
+}
+
+.right-section h1 {
+    font-size: 22px;
+    color: #333;
+    margin-top:20px;
+    text-align: center;
+}
+
+.right-section p {
+    font-size: 20px;
+    font-family: cursive;
+    line-height: 1.8;
+    color: #666
+    margin-top: 35px;
+    text-align:center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container1 {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+.left-section1 {
+    margin-left: 20px;
+}
+.right-section1 h1 {
+
+font-size: 28px;
+color: #333;
+margin-top:20px;
+text-align: center;
+}
+
+.right-section1 p {
+    font-size: 16px;
+    font-family: cursive;
+    line-height: 1.8;
+    color: #666
+    margin-top: 35px;
+    text-align:center;
+}
+
+
+
+h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+.container2 {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+.left-section2 {
+margin-left: 20px;
+
+}
+.right-section2 h1 {
+    font-size: 28px;
+    color: #333;
+    margin-top:20px;
+    text-align: center;
+}
+
+.right-section2 p {
+    font-size: 16px;
+    font-family: cursive;
+    line-height: 1.8;
+    color: #666
+    margin-top: 35px;
+    text-align:center;
+}
+
+
+

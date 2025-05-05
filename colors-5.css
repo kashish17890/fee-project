@@ -1,0 +1,32 @@
+body {
+    background-image:url('main1.jpg');
+    background-color:ghostwhite;
+}
+.box{
+    width:1000px;
+    height:350px;
+    border:3px solid rgba(0, 0, 128, 0.545);
+    padding:10px;
+    margin-left:210px;
+    margin-top: 100px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 128, 0.512)
+    
+}
+.input{
+    width:400px;
+    margin-left: 80px;
+}
+.input1{
+    width:400px;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.heading{
+    text-align: center;
+    }
+p{
+    text-align: center;
+}

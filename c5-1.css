@@ -1,0 +1,73 @@
+body {
+    background-color:ghostwhite;
+}
+.top{
+    justify-content: space-evenly;
+    background-color: rgba(217, 221, 246, 0.718);
+    height:75px ;
+    margin-top: 0px;
+}
+.image{
+    border-radius: 30px;
+    display: flex;
+}
+
+header{
+    text-align:left;
+    padding:1em 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    display:flex;
+    justify-content:center;
+
+}
+abc{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    display:flex;
+    justify-content:center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    background-color: rgba(217, 221, 246, 0.063);
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: navy;
+}
+
+nav ul li a:hover {
+    text-decoration:solid;
+}
+.profile{
+    margin-left: 550px;
+    margin-top: 20px;
+}
+.box{
+    width:1000px;
+    height:350px;
+    border:1px solid rgba(0, 0, 128, 0.545);
+    padding:10px;
+    margin-left:150px;
+    margin-top: 80px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 128, 0.233)
+    
+}
+.input1{
+    width:400px;
+    margin-left: 80px;
+    margin-top: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+}

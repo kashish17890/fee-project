@@ -1,0 +1,33 @@
+body {
+    background-image:url('bgimage-1.0.jpg');
+    background-color:ghostwhite;
+}
+.dropdown{
+    display: inline-block;
+    
+  }
+
+  .dropdown a{
+    display: block;;
+    color: black;
+    padding: 7px 10px;
+    border: none ;
+    text-decoration: none; 
+  }
+  .dropdown .content{
+    display: none;
+    background-color: hsl(0%, 0%, 95%);;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsl(0,0%,0%,0.8);
+  }
+  .dropdown:hover .content{
+    display:inline-flex;
+  }
+
+  ##################################################################################3333333333
+ 
+  <input  type="text" id="new-task" placeholder="Add a new task...">
+  <button id="add-task">+</button>
+  <ul id="task-list"></ul>
+

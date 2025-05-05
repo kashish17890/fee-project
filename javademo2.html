@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>timer</title>
+<style> 
+body{
+font-family: times new roman;
+display: flex;
+justify-content:center;
+align-items:center;
+background-color:ghostwhite;}
+
+#timer{
+    font-size:48px;
+    color:aquamarine;
+}
+</style>
+</head>
+<body>
+    <div id="timer"></div>
+    <script>
+        let timeinseconds=10;
+        const timerElement= document.getElementById('timer');
+        function startCountdown(){
+            const countdownInterval= setInterval(()=>{
+                timerElement.textContent=timeInSeconds;
+
+                timeInSeconds--;
+
+                if(timeInSeconds <0){
+                    clearInterval(countdownInterval);
+                    timeElement.textContent="Time's up!";
+                }
+            },1000);
+        }
+
+        startCountdown();
+    </script>
+</body>
+</html>

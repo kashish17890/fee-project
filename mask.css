@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image:url('bgimage-1.jpg');
+}
+
+abc {
+text-align:start;
+}
+.container {
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height:120px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+header{
+    text-align:center;
+    padding:1em 0;
+}
+h1 {
+    margin-bottom: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content:center;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+input, textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
+///////////////////////////////////////////////////////////////////////////
+<input  type="text" id="new-task" placeholder="Add a new task...">
+<button id="add-task">+</button>
+<ul id="task-list"></ul>
+////////////////////////////////////////////////////////////////////////
+* {
+    box-sizing: border-box;
+}
+
+.container2 {
+    width: 100%;
+}
+
+.box {
+    float: right;
+    width: 33.33%; /* Adjust the width as needed */
+    padding: 20px;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+////////////////////////////////////////////////////////////////
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    position: relative;
+    animation: move 5s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 300px;
+    }
+    100% {
+        left: 0;
+    }
+}
+/////////////////////////////////////////////////////////////////
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transition: transform 2s;
+}
+
+.box:hover {
+    transform: scale(1.5);
+}
+////////////////////////////////////////////////////////////////////////////////
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    direction: ltr;
+    position:absolute;
+    animation: floatOnce 3s ease-in-out forwards;
+}
+
+@keyframes floatOnce {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 300px;
+    }
+}
+/////////////////////////////////////////////////////////////////////////////
+https://png.pngtree.com/element_our/20190603/ourmid/pngtree-business-person-illustration-looking-at-documents-image_1453285.jpg
+//////////////////////////////////////////////////////////////////////////
+https://th.bing.com/th/id/OIG3.GBYIXySTaWehUnWMdrxo?w=270&h=270&c=6&r=0&o=5&dpr=1.4&pid=ImgGn
+///////////////////////////////////////////////////////////////////////
+
+margin-left: 120PX;
+margin-right: 120px;
+///////////////////////////////////////////////////////////////////////////////////
+background-image:url('bg-4.jpg');
+/////////////////////////////////////////////////////////////////////////////
+rgba(209, 201, 204, 0.368);
+///////////////////////////////////////////////////////////////////////////////////
+.pen {
+    width: 100px;
+    height: 100px;
+    direction: ltr;
+    position:absolute;
+    animation: floatOnce 3s ease-in-out forwards;
+    align-items: right;
+}
