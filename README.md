@@ -15,7 +15,7 @@
 ## 🛠️ Tech Stack
 
 **Frontend:** HTML, CSS, JavaScript  
-**Backend:** Node.js (or any backend of your choice, e.g., Firebase)  
+**Backend:** Node.js  
 **Database:** MongoDB / Firebase Realtime DB  
 
 ## 🗂️ Project Structure
